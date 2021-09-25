@@ -10,33 +10,30 @@ body {
     /* Main font color moved to body */
     color: #ffffff;
 }
-
 /* moved font family to body due to reuse. specific overrides remain */
 
 p {
     font-size: 16px;
 }
 
-/* Start Header Section */
-
-.header {
+/* Start of Header Section */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Trimmed selectors since seo is only used once */
-
 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,8 +43,7 @@ p {
     list-style-type: none;
 }
 
-
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -58,23 +54,22 @@ a {
 }
 
 /* End of header section and start of hero section*/
-
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
 
 /* .hero changed to remove background image to allow for alt text.
-added .hero img to fix sizing of the image */
+html changed to a figure and class was removed as it was no longer necessary.
+added figure img to fix sizing of the image */
 
-.hero img {
+figure img {
     width: inherit;
     height: inherit;
 }
 
 /* End of hero section and start of content section */
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -91,7 +86,7 @@ added .hero img to fix sizing of the image */
     margin-left: 20px;
 }
 
-.content div {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -106,10 +101,9 @@ added .hero img to fix sizing of the image */
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Combined 3 into 1 since they were identical */
+/* Combined sets of 3 into single declaration blocks */
 
 /* End of content section and start of benefits section */
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,7 +114,7 @@ added .hero img to fix sizing of the image */
     background-color: #2589bd;
 }
 
-.benefits div {
+.benefits section {
     margin-bottom: 32px;
 }
 
@@ -134,12 +128,10 @@ added .hero img to fix sizing of the image */
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Combined sets of 3 into single statements */
+/* Combined sets of 3 into single declaration blocks */
 
 /* End of benefits section and start of footer section */
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -148,6 +140,6 @@ added .hero img to fix sizing of the image */
     color: black;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
