@@ -33,7 +33,7 @@ header h1 {
     color: #d9dcd6;
 }
 
-header nav {
+table {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,7 +43,7 @@ header nav {
     list-style-type: none;
 }
 
-header nav ul li {
+td {
     display: inline-block;
     margin-left: 25px;
 }
