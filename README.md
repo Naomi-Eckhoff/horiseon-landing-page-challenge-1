@@ -22,7 +22,7 @@ I believe this has been accomplished as, much of the css has been merged or move
 
 
 Link to the page
-https://naomi-eckhoff.github.io/horison-landing-page-challenge-1/
+https://naomi-eckhoff.github.io/horiseon-landing-page-challenge-1/
 
 
 
