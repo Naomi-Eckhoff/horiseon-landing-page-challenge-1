@@ -4,18 +4,18 @@ The goal of this challenge was to refactor a preexisting page primarily focused 
 
 These were the criteria
 
-Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+Acceptance Criteria <br/>
+GIVEN a webpage meets accessibility standards<br/>
+WHEN I view the source code<br/>
+THEN I find semantic HTML elements<br/>
+WHEN I view the structure of the HTML elements<br/>
+THEN I find that the elements follow a logical structure independent of styling and positioning<br/>
+WHEN I view the image elements<br/>
+THEN I find accessible alt attributes<br/>
+WHEN I view the heading attributes<br/>
+THEN they fall in sequential order<br/>
+WHEN I view the title element<br/>
+THEN I find a concise, descriptive title<br/>
 
 I believe this has been accomplished as, much of the css has been merged or moved, the html no long has generic divs, all the images have alt text, and the integrity of the site has been retained. 
 
