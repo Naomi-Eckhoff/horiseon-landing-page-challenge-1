@@ -1,4 +1,4 @@
-# Horieseon Code Refactor Challenge 1
+# Horiseon Code Refactor Challenge 1
 
 The goal of this challenge was to refactor a preexisting page primarily focused on accessibility.
 
@@ -22,7 +22,7 @@ I believe this has been accomplished as, much of the css has been merged or move
 
 
 Link to the page
-
+https://naomi-eckhoff.github.io/horison-landing-page-challenge-1/
 
 
 
